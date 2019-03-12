@@ -1,0 +1,220 @@
+body{
+  font-family: "Monserrat"
+}
+
+/*******************h's tags: *************/
+
+h2, h3, h4, h5, h6{/*multiple selectors.*/
+  font-family: "Moserrat-Bold";
+}
+
+p{
+  color: #8f8f8f;
+}
+
+#title{
+  /*background-color: #98ccd3;*/
+  /*background-color: #c11efb;*/
+  background-color: #d21f1f;
+  text-align: left;
+}
+
+/****************** Headings: ***********************/
+
+.big-heading{
+  font-family: pacifico;
+  size: 3rem;
+  color: #c9ffc4;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/**********************Container: *******************/
+.container-fluid{
+  padding: 3% 15% 13%;
+}
+
+/*********************Sections: ********************/
+/*.colored-section{
+  background-color: #d21f1f;
+}
+
+.white-section{
+  background-color: white;
+}*/
+
+/****************** Navbar: **********************/
+.navbar-brand{
+  font-size: 26pt;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Monserrat-light";
+
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 70%;
+  border-radius: 5%;
+  transform:rotate(25deg);
+  /*z-index: -1; To make the image appear like back ground and we need to set the position like absolute*/
+  position: absolute;
+  right: 5%;
+}
+
+.image-logo{
+  border-radius: 8%;
+  width: 50px;
+  height: 50px;
+}
+
+.image-logo1{
+  border-radius: 8%;
+  width: 50px;
+  height: 50px;
+}
+
+/*******************features**************************/
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  /*z-index: 1;*/
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #db2d43;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #729d39;
+}
+
+    /*Testimonial section*/
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #d21f1f;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 25%; /*Make the picture bigger or smaller*/
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+    /*Press section*/
+#press{
+  background-color: #d21f1f;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px; //top left-rigth bottom.
+}
+
+    /*pricing*/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.price-text{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#cta{
+  padding: 0 0 4.5rem;
+  background-color: #d21f1f;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 3%;
+  /*font-family: "Monserrat-black";*/
+}
+/*.cta{
+  padding: 0 0 4.5rem;
+  background-color: #d21f1f;
+  color: white;
+  text-align: center;
+  padding-bottom: 3%;
+  font-family: "Monserrat-black";
+}*/
+
+.cta-heading{
+  padding-top: 3%;
+  color: white;
+  font-family: "Monserrat-black";
+  font-size: 2.5rem;
+}
+
+.footer{
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.social-icon{
+  margin: 20px 10px; /*20 px top and bottom and 0 px left and right.*/
+}
+
+/***********Using @media: CSS mediaQuery. *************************/
+@media(max-width: 1028px){
+
+  /* Dinamic title: */
+  #title{
+    text-align: center;
+  }
+
+  /* dinamic image: */
+  .title-image{
+    position: static;
+    /*transform:rotate(-25deg);*/
+    transform: rotate(0);
+  }
+}
